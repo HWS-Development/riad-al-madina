@@ -1,0 +1,147 @@
+{
+  "brand": "Riad Al Madina",
+  "nav": { "home": "Home", "rooms": "Rooms & Suites", "restaurant": "Restaurant", "spa": "Spa & Wellness", "gallery": "Gallery", "contact": "Contact", "booking": "Booking" },
+  "footer": { "addr": "Old Medina, Essaouira — Morocco", "contactTitle": "Contact" },
+  "contact": { "nearby": "Nearby", "openMaps": "Open in Google Maps" },
+  "booking": { 
+    "checkin": "Check-in", "checkout": "Check-out",
+   "adults": "Adults", "children": "Children", "search": "Search", "invalidRange": "Checkout must be after check-in.",
+    "promo": {
+      "ask": "Have a promo code?",
+      "label": "Promo code",
+      "placeholder": "Enter your code"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "Riad Al Madina courtyard",
+      "badge": "Since 1871",
+      "title": "Live the charm of 18th-century Essaouira",
+      "subtitle": "A historic riad with soul — steps from the ramparts and the ocean.",
+      "cta": "Check availability"
+    },
+    "intro": {
+      "title": "Welcome to Essaouira",
+      "text": "Built in 1871 and lovingly restored, our riad blends discreet elegance with the living heart of a Moroccan patio.",
+      "alt": "Courtyard and salons view"
+    },
+    "highlights": { "rooms": "Rooms & Suites", "restaurant": "Restaurant", "spa": "Spa & Wellness", "cta": "Discover more" },
+    "roomsPreview": {
+      "title": "Rooms & Suites",
+      "seeAll": "See all rooms",
+      "show": "Show room",
+      "meta": {
+        "single": "12 m² · 1 single bed",
+        "double": "20 m² · 1 double bed",
+        "twin": "Two separate beds",
+        "suite": "Bedroom + Moroccan living room"
+      }
+    },
+    "reviews": {
+      "title": "Guest reviews",
+      "subtitle": "from Booking.com",
+      "ratingLabel": "Overall rating",
+      "cta": "Read more on Booking.com",
+      "linkUrl": "https://www.booking.com/",
+      "quotes": [
+        { "text": "Wonderful location in the heart of the medina. Staff were warm and welcoming.", "author": "Anna, UK", "date": "May 2025" },
+        { "text": "The patio is magical at night. Great breakfast and very clean rooms.", "author": "Marc, FR", "date": "Apr 2025" },
+        { "text": "Authentic riad feel with modern comforts. We’ll be back!", "author": "Layla, US", "date": "Mar 2025" }
+      ]
+    }
+  },
+  "services": {
+    "title": "Services",
+    "carpark": { "name": "Car park", "desc": "Public parking around the hotel" },
+    "wifi": { "name": "Wi-Fi Internet", "desc": "Free, unlimited Internet" },
+    "concierge": { "name": "Concierge", "desc": "Reception staff speaking FR, EN, DE, AR" }
+  },
+  "rooms": {
+    "types": { "single": "Single", "double": "Double", "twin": "Twin", "suite": "Suite" },
+    "title": "Rooms & Suites",
+    "subtitle": "Each room has its own style, colors and charm — all restored with care to keep the discreet elegance of our 18th-century riad.",
+    "filter": {
+      "all": "All",
+      "single": "Single",
+      "double": "Double",
+      "twin": "Twin",
+      "suite": "Suite"
+    },
+    "show": "Show room",
+    "book": "Book now",
+    "increaseAdults": "Increase adults",
+    "decreaseAdults": "Decrease adults",
+    "policiesTitle": "Useful information",
+    "policy1": "Check-in from 3pm · Check-out until 12pm.",
+    "policy2": "Breakfast available (optional).",
+    "policy3": "City tax may apply at the property."
+  },
+  "common": { "close": "Close" },
+  "restaurant": {
+    "hero": {
+      "aria": "Restaurant hero section",
+      "alt": "Dining ambience at the riad",
+      "title": "Riad Al Madina – Restaurant",
+      "subtitle": "Seasonal Moroccan flavors in the heart of Essaouira’s medina."
+    },
+    "intro": {
+      "title": "Welcome to Our Table",
+      "text": "From classic tajines to coastal seafood, our kitchen celebrates local produce and timeless recipes with a warm, elegant touch.",
+      "ctaReserve": { "label": "Book a Table", "href": "#" },
+      "ctaCall": { "label": "Call Us", "href": "tel:+212000000000" }
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "items": [
+        { "day": "Mon–Thu", "time": "12:30–15:00 • 19:00–22:30" },
+        { "day": "Fri–Sun", "time": "12:30–16:00 • 19:00–23:00" }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Riad Al Madina, Medina of Essaouira, Morocco",
+      "phone": "+212 (0)5 24 47 00 00",
+      "phoneRaw": "+212524470000",
+      "email": "info@riadalmadina.com"
+    },
+    "menu": {
+      "title": "Our Menu",
+      "subtitle": "A snapshot of our favorites — menus change with the season.",
+      "group": {
+        "starters": "Starters",
+        "mains": "Mains",
+        "desserts": "Desserts"
+      },
+      "note": "Prices in MAD. Please inform us of any allergies.",
+      "starters": [],
+      "mains": [],
+      "desserts": [],
+      "sample": {
+        "sardines": "Grilled Essaouira Sardines",
+        " zaalouk": "Zaalouk (smoky eggplant salad)",
+        " zaaloukDesc": "Roasted eggplant, tomato, garlic, olive oil",
+        "tajineChicken": "Chicken Tajine with Preserved Lemon",
+        "tajineDesc": "Green olives, confit lemon, saffron",
+        "couscous": "Friday Couscous Royal",
+        "orangeCinnamon": "Orange with Cinnamon",
+        "msemenHoney": "Msemen & Honey"
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "items": [],
+      "alt1": "Courtyard table setting",
+      "alt2": "Fresh herbs and spices",
+      "alt3": "Traditional tajine",
+      "alt4": "Dessert and mint tea",
+      "alt5": "Seafood plate",
+      "alt6": "Bread and olive oil"
+    },
+    "map": {
+      "title": "Map",
+      "openLabel": "Open in Google Maps",
+      "openLink": "#",
+      "embedSrc": ""
+    }
+  }
+}

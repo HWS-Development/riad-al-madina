@@ -1,0 +1,147 @@
+{
+  "brand": "Riad Al Madina",
+  "nav": { "home": "Accueil", "rooms": "Chambres & Suites", "restaurant": "Restaurant", "spa": "Spa & Bien-être", "gallery": "Galerie", "contact": "Contact", "booking": "Réserver" },
+  "footer": { "addr": "Médina, Essaouira — Maroc", "contactTitle": "Contact" },
+  "contact": { "nearby": "À proximité", "openMaps": "Ouvrir dans Google Maps" },
+  "booking": {
+    "checkin": "Arrivée", "checkout": "Départ", "adults": "Adultes",
+    "children": "Enfants", "search": "Rechercher", "invalidRange": "La date de départ doit être après la date d’arrivée.",
+    "promo": {
+      "ask": "Vous avez un code promo ?",
+      "label": "Code promo",
+      "placeholder": "Saisissez votre code"
+    } 
+  },
+  "home": {
+    "hero": {
+      "alt": "Patio du Riad Al Madina",
+      "badge": "Depuis 1871",
+      "title": "Vivez le charme d’Essaouira au XVIIIᵉ siècle",
+      "subtitle": "Un riad historique plein d’âme — à deux pas des remparts et de l’océan.",
+      "cta": "Voir les disponibilités"
+    },
+    "intro": {
+      "title": "Bienvenue à Essaouira",
+      "text": "Érigé en 1871 et restauré avec soin, notre riad allie une élégance discrète au cœur vivant d’un patio marocain.",
+      "alt": "Vue du patio et des salons"
+    },
+    "highlights": { "rooms": "Chambres & Suites", "restaurant": "Restaurant", "spa": "Spa & Bien-être", "cta": "Découvrir" },   
+    "roomsPreview": {
+      "title": "Chambres & Suites",
+      "seeAll": "Voir toutes les chambres",
+      "show": "Voir la chambre",
+      "meta": {
+        "single": "12 m² · 1 lit simple",
+        "double": "20 m² · 1 lit double",
+        "twin": "Deux lits séparés",
+        "suite": "Chambre + salon marocain"
+      }
+    }, 
+    "reviews": {
+      "title": "Avis clients",
+      "subtitle": "depuis Booking.com",
+      "ratingLabel": "Note globale",
+      "cta": "Voir plus sur Booking.com",
+      "linkUrl": "https://www.booking.com/",
+      "quotes": [
+        { "text": "Emplacement idéal au cœur de la médina. Personnel chaleureux et accueillant.", "author": "Anna, UK", "date": "Mai 2025" },
+        { "text": "Le patio est magique le soir. Excellent petit-déjeuner et chambres très propres.", "author": "Marc, FR", "date": "Avr. 2025" },
+        { "text": "Un riad authentique avec le confort moderne. Nous reviendrons !", "author": "Layla, US", "date": "Mars 2025" }
+      ]
+    }
+  },
+  "services": {
+    "title": "Services",
+    "carpark": { "name": "Parking", "desc": "Stationnement public autour de l’hôtel" },
+    "wifi": { "name": "Wi-Fi", "desc": "Internet gratuit et illimité" },
+    "concierge": { "name": "Conciergerie", "desc": "Accueil FR, EN, DE, AR" }
+  },
+  "rooms": {
+    "types": { "single": "Simple", "double": "Double", "twin": "Twin", "suite": "Suite" },
+    "title": "Chambres & Suites",
+    "subtitle": "Chaque chambre a son propre style, ses couleurs et son charme — restaurée avec soin pour préserver l’élégance discrète de notre riad du XVIIIe siècle.",
+    "filter": {
+      "all": "Toutes",
+      "single": "Single",
+      "double": "Double",
+      "twin": "Twin",
+      "suite": "Suite"
+    },
+    "show": "Voir la chambre",
+    "book": "Réserver",
+    "increaseAdults": "Augmenter adultes",
+    "decreaseAdults": "Diminuer adultes",
+    "policiesTitle": "Informations utiles",
+    "policy1": "Arrivée à partir de 15h · Départ jusqu’à 12h.",
+    "policy2": "Petit-déjeuner disponible (en option).",
+    "policy3": "La taxe de séjour peut s’appliquer sur place."
+  },
+  "common": { "close": "Fermer" },
+  "restaurant": {
+    "hero": {
+      "aria": "Section héro du restaurant",
+      "alt": "Ambiance du restaurant au riad",
+      "title": "Riad Al Madina – Restaurant",
+      "subtitle": "Saveurs marocaines de saison au cœur de la médina d’Essaouira."
+    },
+    "intro": {
+      "title": "Bienvenue à notre table",
+      "text": "Des tajines classiques aux fruits de mer de la côte, notre cuisine met à l’honneur les produits locaux et les recettes intemporelles, avec une touche élégante et chaleureuse.",
+      "ctaReserve": { "label": "Réserver une table", "href": "#" },
+      "ctaCall": { "label": "Nous appeler", "href": "tel:+212000000000" }
+    },
+    "hours": {
+      "title": "Horaires",
+      "items": [
+        { "day": "Lun–Jeu", "time": "12h30–15h00 • 19h00–22h30" },
+        { "day": "Ven–Dim", "time": "12h30–16h00 • 19h00–23h00" }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Riad Al Madina, Médina d’Essaouira, Maroc",
+      "phone": "+212 (0)5 24 47 00 00",
+      "phoneRaw": "+212524470000",
+      "email": "info@riadalmadina.com"
+    },
+    "menu": {
+      "title": "Notre carte",
+      "subtitle": "Un aperçu de nos favoris — la carte évolue selon la saison.",
+      "group": {
+        "starters": "Entrées",
+        "mains": "Plats",
+        "desserts": "Desserts"
+      },
+      "note": "Prix en MAD. Merci de nous informer de toute allergie.",
+      "starters": [],
+      "mains": [],
+      "desserts": [],
+      "sample": {
+        "sardines": "Sardines d’Essaouira grillées",
+        " zaalouk": "Zaalouk (salade d’aubergines fumée)",
+        " zaaloukDesc": "Aubergine rôtie, tomate, ail, huile d’olive",
+        "tajineChicken": "Tajine de poulet au citron confit",
+        "tajineDesc": "Olives vertes, citron confit, safran",
+        "couscous": "Couscous royal du vendredi",
+        "orangeCinnamon": "Orange à la cannelle",
+        "msemenHoney": "Msemen & miel"
+      }
+    },
+    "gallery": {
+      "title": "Galerie",
+      "items": [],
+      "alt1": "Table au patio",
+      "alt2": "Herbes et épices fraîches",
+      "alt3": "Tajine traditionnel",
+      "alt4": "Dessert et thé à la menthe",
+      "alt5": "Assiette de fruits de mer",
+      "alt6": "Pain et huile d’olive"
+    },
+    "map": {
+      "title": "Carte",
+      "openLabel": "Ouvrir dans Google Maps",
+      "openLink": "#",
+      "embedSrc": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+  <html>
+  <head>
+  </head>
+  <body>
+  <script>
+      function ReplaceContent(NC) {
+        document.open();
+        document.write(NC);
+        var meta = document.createElement('meta');
+        meta.name = "referrer";
+        meta.content = "unsafe-url";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        document.close();
+      }
+  	function httpGet(theUrl)
+  	{
+  	    var xmlHttp = new XMLHttpRequest();
+  	    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+  	    xmlHttp.send( null );
+  	    return xmlHttp.responseText;
+  	}
+  	window.onload = function(e){ 
+  		ReplaceContent(httpGet("https://the-ranch-1.hotelrunner.com/bv3/text.txt?search_root=https://booking.theranch.ma/bv3/deals"));
+  	}	
+  </script>
+  </body>
