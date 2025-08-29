@@ -1,1 +1,15 @@
-export default function NotFound(){ return <div className="container mx-auto max-w-[1200px] px-4 py-24 text-center"><h1 className="font-serif text-4xl">404</h1></div>; }
+import GalleryHero from "../components/gallery/GalleryHero";
+import GalleryGrid from "../components/gallery/GalleryGrid";
+
+export default function Gallery() {
+  return (
+    <>
+      <GalleryHero />
+      <section className="bg-[#f4efe8] py-10 md:py-12">
+        <div className="mx-auto max-w-6xl px-4 md:px-6">
+          <GalleryGrid />
+        </div>
+      </section>
+    </>
+  );
+}

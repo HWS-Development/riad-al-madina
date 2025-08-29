@@ -38,7 +38,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <LangSwitch />
           <a
-            href="#booking"
+            href="https://riad-dar-tiflet-1.hotelrunner.com/bv3/search"
             className="rounded-brand border border-cacao/20 px-4 py-2 text-sm bg-ink text-white shadow-soft"
           >
             {t("nav.booking")}

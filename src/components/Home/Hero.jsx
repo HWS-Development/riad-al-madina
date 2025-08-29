@@ -12,10 +12,10 @@ export default function Hero({ children }) {
     <section className="relative">
       {/* Responsive hero image */}
       <picture>
-        <source media="(min-width:1024px)" srcSet="https://picsum.photos/seed/riad-hero-lg/2880/1400" />
-        <source media="(min-width:640px)"  srcSet="https://picsum.photos/seed/riad-hero-md/1920/1100" />
+        <source media="(min-width:1024px)" srcSet="/images/interior.jpg" />
+        <source media="(min-width:640px)"  srcSet="/images/interior.jpg" />
         <img
-          src="https://picsum.photos/seed/riad-hero-sm/1080/1400"
+          src="/images/interior.jpg"
           alt={t("home.hero.alt")}
           className="h-[64vh] md:h-[72vh] w-full object-cover"
           loading="eager"

@@ -7,7 +7,7 @@ export default function Section({
   }) {
     const bgClass = bg === "alt" ? "bg-[#EFE3D9]" : "bg-transparent"; // use your alt token here
     return (
-      <section id={id} className={`${bgClass} py-10 md:py-14`}>
+      <section id={id} className={`${bgClass} py-6 md:py-10`}>
         <div className="max-w-6xl mx-auto px-4">
           {title && (
             <h2 className="font-display text-2xl md:text-3xl tracking-tight">

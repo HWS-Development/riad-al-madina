@@ -79,69 +79,156 @@
   "common": { "close": "Fermer" },
   "restaurant": {
     "hero": {
-      "aria": "Section héro du restaurant",
-      "alt": "Ambiance du restaurant au riad",
+      "alt": "Ambiance de dîner au riad",
       "title": "Riad Al Madina – Restaurant",
-      "subtitle": "Saveurs marocaines de saison au cœur de la médina d’Essaouira."
+      "subtitle": "Les repas sont servis dans de charmants salons où chaque détail compte. Dégustez une cuisine traditionnelle ou internationale, issue de produits rigoureusement sélectionnés."
     },
-    "intro": {
-      "title": "Bienvenue à notre table",
-      "text": "Des tajines classiques aux fruits de mer de la côte, notre cuisine met à l’honneur les produits locaux et les recettes intemporelles, avec une touche élégante et chaleureuse.",
-      "ctaReserve": { "label": "Réserver une table", "href": "#" },
-      "ctaCall": { "label": "Nous appeler", "href": "tel:+212000000000" }
+    "story": {
+      "title": "Bienvenue",
+      "text": "Autour du patio, notre cuisine marie classiques marocains et poissons de marché d’Essaouira. Le menu suit les saisons et la pêche du jour."
     },
     "hours": {
       "title": "Horaires",
-      "items": [
-        { "day": "Lun–Jeu", "time": "12h30–15h00 • 19h00–22h30" },
-        { "day": "Ven–Dim", "time": "12h30–16h00 • 19h00–23h00" }
-      ]
+      "lunch": "Déjeuner : 12h00 – 15h00",
+      "dinner": "Dîner : 19h00 – 22h30",
+      "note": "Ouvert tous les jours (selon saison)."
+    },
+    "cta": {
+      "book": "Réserver une table",
+      "email": "Nous écrire",
+      "bigTitle": "Envie de goûter Essaouira ?",
+      "bigText": "Réservez votre table et profitez de notre cuisine de saison."
+    },
+    "highlights": {
+      "sardines": "Sardines d’Essaouira grillées",
+      "tajine": "Tajine de poulet au citron confit",
+      "couscous": "Couscous royal du vendredi",
+      "alt": "Plat signature",
+      "caption": "Quelques favoris de la maison"
+    },
+    "menu": {
+      "title": "Menu du midi",
+      "note": "Prix en MAD. Merci de nous informer de toute allergie.",
+      "sardines": "Sardines grillées",
+      "bream": "Daurade grillée",
+      "gambas": "Gambas grillées",
+      "sole": "Sole grillée",
+      "calamar": "Calamar à la plancha",
+      "skewers": "Brochettes de poisson",
+      "pilpil": "Crevettes pil-pil",
+      "pastilla": "Pastilla aux fruits de mer",
+      "lobster": "Homard grillé"
+    },
+    "specials": {
+      "title": "Suggestions du chef",
+      "text": "Renseignez-vous sur la pêche du jour et les tajines de saison. Les prix peuvent varier."
+    },
+    "picks": {
+      "title": "Notre restaurant",
+      "alt": "Sélection du chef"
+    },
+    "map": {
+      "title": "Plan",
+      "openLabel": "Ouvrir dans Google Maps"
     },
     "contact": {
       "title": "Contact",
-      "address": "Riad Al Madina, Médina d’Essaouira, Maroc",
-      "phone": "+212 (0)5 24 47 00 00",
-      "phoneRaw": "+212524470000",
-      "email": "info@riadalmadina.com"
+      "address": "9, rue Attarine, Médina d’Essaouira — Maroc"
+    }
+  },
+  "contact": {
+    "hero": {
+      "alt": "Toits de la médina d’Essaouira au coucher du soleil",
+      "title": "Contact",
+      "subtitle": "Questions, réservations ou demandes spéciales — nous sommes à votre écoute."
     },
-    "menu": {
-      "title": "Notre carte",
-      "subtitle": "Un aperçu de nos favoris — la carte évolue selon la saison.",
-      "group": {
-        "starters": "Entrées",
-        "mains": "Plats",
-        "desserts": "Desserts"
-      },
-      "note": "Prix en MAD. Merci de nous informer de toute allergie.",
-      "starters": [],
-      "mains": [],
-      "desserts": [],
-      "sample": {
-        "sardines": "Sardines d’Essaouira grillées",
-        " zaalouk": "Zaalouk (salade d’aubergines fumée)",
-        " zaaloukDesc": "Aubergine rôtie, tomate, ail, huile d’olive",
-        "tajineChicken": "Tajine de poulet au citron confit",
-        "tajineDesc": "Olives vertes, citron confit, safran",
-        "couscous": "Couscous royal du vendredi",
-        "orangeCinnamon": "Orange à la cannelle",
-        "msemenHoney": "Msemen & miel"
-      }
+    "cards": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse",
+      "social": "Réseaux",
+      "daily": "Tous les jours 8h00–22h00 (heure locale)"
     },
-    "gallery": {
-      "title": "Galerie",
-      "items": [],
-      "alt1": "Table au patio",
-      "alt2": "Herbes et épices fraîches",
-      "alt3": "Tajine traditionnel",
-      "alt4": "Dessert et thé à la menthe",
-      "alt5": "Assiette de fruits de mer",
-      "alt6": "Pain et huile d’olive"
+    "address": {
+      "full": "9, rue Attarine, Médina d’Essaouira — Maroc"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "subject": "Demande depuis le site",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "send": "Envoyer"
+    },
+    "direct": {
+      "title": "Contact direct",
+      "booking": "Pour les réservations :",
+      "phone": "Ou appelez :",
+      "findUs": "Nous trouver"
     },
     "map": {
-      "title": "Carte",
-      "openLabel": "Ouvrir dans Google Maps",
-      "openLink": "#",
-      "embedSrc": ""
+      "title": "Plan",
+      "open": "Ouvrir dans Google Maps"
+    },
+    "hours": {
+      "title": "Réception & Horaires",
+      "reception": "Réception : 24/7 (gardien de nuit sur place)",
+      "checkin": "Arrivée : à partir de 15h00",
+      "checkout": "Départ : jusqu’à 12h00",
+      "note": "Arrivée anticipée ou départ tardif selon disponibilité."
+    },
+    "faq": {
+      "title": "Bon à savoir",
+      "q1": "Proposez-vous des transferts aéroport ?",
+      "a1": "Oui. Nous organisons des transferts privés depuis Marrakech, Agadir ou l’aéroport d’Essaouira. Transmettez-nous vos vols.",
+      "q2": "Le petit-déjeuner est-il inclus ?",
+      "a2": "Le petit-déjeuner est optionnel et peut être ajouté à votre séjour. Petit-déjeuner marocain servi chaque jour.",
+      "q3": "Pouvez-vous adapter la cuisine aux régimes particuliers ?",
+      "a3": "Bien sûr. Indiquez vos allergies ou préférences — notre équipe s’adaptera avec plaisir."
+    }
+  },
+  "spa": {
+    "hero": {
+      "title": "Spa & Bien-être",
+      "subtitle": "Respirez dans notre hammam traditionnel, massages aromatiques et rituels lents — au calme de notre riad.",
+      "alt": "Ambiance spa chaleureuse"
+    },
+    "hammam": {
+      "title": "Hammam Marocain",
+      "text": "Notre hammam associe vapeur, savon noir et gommage kessa pour une sensation de légèreté. Votre praticienne vous guide étape par étape pour un lâcher-prise complet.",
+      "bullets": [
+        "Hammam + gommage kessa",
+        "Savon noir & enveloppement au ghassoul",
+        "Rituel cuir chevelu à l’huile d’argan (en option)"
+      ],
+      "alt": "Hammam traditionnel"
+    },
+    "treatments": {
+      "title": "Soins & Tarifs",
+      "note": "Tarifs en MAD. Merci de nous signaler toute allergie."
+    },
+    "cta": {
+      "title": "Détendez-vous, on s’occupe de tout…",
+      "text": "Réservez le hammam ou un massage à l’avance — ou sur place selon disponibilité.",
+      "book": "Réserver un soin",
+      "email": "Nous écrire"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galerie",
+      "subtitle": "Aperçus de notre riad : chambres, patio, restaurant et la magie d’Essaouira.",
+      "alt": "Arches de patio baignées de lumière"
+    },
+    "filters": {
+      "all": "Tout",
+      "rooms": "Chambres",
+      "riad": "Riad",
+      "restaurant": "Restaurant",
+      "spa": "Spa",
+      "essaouira": "Essaouira"
     }
   }
+
 }

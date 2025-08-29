@@ -6,13 +6,13 @@ export default function HomeHighlights() {
   const cards = [
     {
       title: t("home.highlights.restaurant"),
-      img: "https://picsum.photos/seed/riad-restaurant/1400/900",
+      img: "/images/resto.jpg",
       to: "/restaurant",
       alt: "Restaurant courtyard tables"
     },
     {
       title: t("home.highlights.spa"),
-      img: "https://picsum.photos/seed/riad-spa/1400/900",
+      img: "/images/spa.jpg",
       to: "/spa",
       alt: "Spa & wellness ambiance"
     }

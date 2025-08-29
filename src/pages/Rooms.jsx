@@ -3,8 +3,7 @@ import { useTranslation } from "react-i18next";
 import { defaultDates } from "../utils/booking";
 import RoomsGrid from "../components/rooms/RoomsGrid";
 
-const ROOMS_HERO =
-  "https://images.unsplash.com/photo-1520256862855-398228c41684?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3";
+const ROOMS_HERO = "/images/interior3.jpg";
 
 function RoomsHero() {
   const { t } = useTranslation();
@@ -41,7 +40,7 @@ export default function RoomsPage() {
     <main className="relative">
       <RoomsHero />
       <RoomsGrid checkin={checkin} checkout={checkout} />
-      <section className="py-10 border-t border-sand/50">
+      <section className="py-10">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="font-medium">Useful information</h2>
           <ul className="text-sm opacity-80 mt-2 space-y-1 list-disc pl-5">

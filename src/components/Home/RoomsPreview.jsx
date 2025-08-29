@@ -13,25 +13,19 @@ export default function RoomsPreview() {
       id: "single",
       title: t("rooms.types.single"),
       meta: t("home.roomsPreview.meta.single"),
-      img: "https://picsum.photos/seed/room-single/900/700"
+      img: "/images/rooms/single.jpg"
     },
     {
       id: "double",
       title: t("rooms.types.double"),
       meta: t("home.roomsPreview.meta.double"),
-      img: "https://picsum.photos/seed/room-double/900/700"
-    },
-    {
-      id: "twin",
-      title: t("rooms.types.twin"),
-      meta: t("home.roomsPreview.meta.twin"),
-      img: "https://picsum.photos/seed/room-twin/900/700"
+      img: "/images/rooms/double.jpg"
     },
     {
       id: "suite",
       title: t("rooms.types.suite"),
       meta: t("home.roomsPreview.meta.suite"),
-      img: "https://picsum.photos/seed/room-suite/900/700"
+      img: "/images/rooms/suite.jpg"
     }
   ];
 
@@ -47,7 +41,7 @@ export default function RoomsPreview() {
           </Link>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {rooms.slice(0, 4).map((room) => (
             <div
               key={room.id}

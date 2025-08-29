@@ -1,17 +1,23 @@
 import Hero from "../components/restaurant/Hero";
-import IntroHours from "../components/restaurant/IntroHours";
+import Story from "../components/restaurant/Story";
+import MenuHighlights from "../components/restaurant/MenuHighlights";
 import MenuList from "../components/restaurant/MenuList";
-import GalleryStrip from "../components/restaurant/GalleryStrip";
+import Specials from "../components/restaurant/Specials";
+import GalleryMosaic from "../components/restaurant/GalleryMosaic";
+import CTAReservation from "../components/restaurant/CTAReservation";
 import ContactMap from "../components/restaurant/ContactMap";
 
-export default function Restaurant() {
+export default function RestaurantPage() {
   return (
-    <main className="min-h-screen bg-stone-50">
+    <main>
       <Hero />
-      <IntroHours />
+      <Story />
+      <MenuHighlights />
       <MenuList />
-      <GalleryStrip />
+      <Specials />
+      {/* <GalleryMosaic /> */}
       <ContactMap />
+      <CTAReservation />
     </main>
   );
 }

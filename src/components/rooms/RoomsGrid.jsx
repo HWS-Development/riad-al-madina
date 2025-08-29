@@ -18,7 +18,7 @@ const ROOMS = [
     breakfast: "Breakfast from 45 DH per person",
     short: "Cozy room with refined Moroccan touches.",
     bullets: ["12 m²", "1 single bed", "Air conditioner", "Satellite channels"],
-    hero: 'https://picsum.photos/seed/room-single/900/700',
+    hero: '/images/rooms/single.jpg',
     gallery: [cover("single-a"), cover("single-b")],
   },
   {
@@ -32,22 +32,8 @@ const ROOMS = [
     short:
       "Warm, elegant room decorated in Moroccan tradition. Some rooms are on two levels (mezzanine).",
     bullets: ["20 m²", "1 double bed", "Bathroom", "Air conditioner", "Satellite channels"],
-    hero: 'https://picsum.photos/seed/room-double/900/700',
+    hero: '/images/rooms/double.jpg',
     gallery: [cover("double-a"), cover("double-b")],
-  },
-  {
-    id: "twin",
-    title: "Twin",
-    size: 18,
-    capacityLabel: "2 people",
-    beds: "2 separate beds",
-    priceFrom: "—",
-    breakfast: "Breakfast from 45 DH per person",
-    short:
-      "Two separate beds — ideal for friends or family while keeping Moroccan charm.",
-    bullets: ["18 m²", "2 separate beds", "Bathroom", "Heating", "Wi-Fi"],
-    hero: 'https://picsum.photos/seed/room-twin/900/700',
-    gallery: [cover("twin-a"), cover("twin-b")],
   },
   {
     id: "suite",
@@ -60,7 +46,7 @@ const ROOMS = [
     short:
       "Spacious suite with a traditional lounge for extra comfort (benches, TV, radiator).",
     bullets: ["One bedroom", "A Moroccan living room", "Benches", "TV, radiator …"],
-    hero: 'https://picsum.photos/seed/room-suite/900/700',
+    hero: '/images/rooms/suite.jpg',
     gallery: [cover("suite-a"), cover("suite-b")],
   },
 ];
@@ -100,13 +86,13 @@ export default function RoomsGrid({ checkin, checkout }) {
     <div className="text-xs opacity-60">{room.size} m² · {room.capacityLabel}</div>
 
     <p className="mt-3 text-sm leading-relaxed">{room.short}</p>
-
+{/* 
     {room.priceFrom && (
       <div className="mt-3">
         <span className="text-xs opacity-60 mr-1">from</span>
         <span className="font-medium text-oasis">{room.priceFrom}</span>
       </div>
-    )}
+    )} */}
 
     {/* subtle divider */}
     <div className="mt-4 h-px bg-sand/40" />

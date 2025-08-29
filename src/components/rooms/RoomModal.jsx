@@ -28,9 +28,6 @@ export default function RoomModal({ open, onClose, room, onBook }) {
         <div className="flex items-start justify-between p-4 md:p-6 border-b border-sand/40">
           <div>
             <h3 className="font-display text-xl md:text-2xl">{room.title}</h3>
-            {room.priceFrom && (
-              <div className="text-sm opacity-70 mt-1">{room.priceFrom}</div>
-            )}
           </div>
           <button
             onClick={onClose}
@@ -78,9 +75,9 @@ export default function RoomModal({ open, onClose, room, onBook }) {
             </div>
 
             {room.short && <p className="text-sm mt-4">{room.short}</p>}
-            {room.breakfast && (
+            {/* {room.breakfast && (
               <div className="text-xs opacity-70 mt-3">{room.breakfast}</div>
-            )}
+            )} */}
 
             <div className="mt-5 flex gap-2">
               <button

@@ -23,7 +23,7 @@ export default function HomeIntro() {
       {/* Supporting image (only for layout balance; swap later) */}
       <div className="md:col-span-2">
         <img
-          src="https://picsum.photos/seed/riad-intro/900/700"
+          src="/images/essaouira.jpg"
           alt={t("home.intro.alt")}
           className="w-full h-64 md:h-72 object-cover rounded-brand shadow-soft"
           loading="lazy"

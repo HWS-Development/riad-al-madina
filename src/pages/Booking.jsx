@@ -1,13 +1,12 @@
-// src/pages/Booking.jsx
-import { useEffect } from "react";
 export default function Booking() {
-  useEffect(() => {
-    const s = document.createElement("script");
-    s.src = "/hotelrunner/hotelrunner.js";
-    s.async = true;
-    document.body.appendChild(s);
-    return () => { try { document.body.removeChild(s); } catch {console.log('hey');
-    } };
-  }, []);
-  return <div id="hr_search_widget" className="min-h-screen" />;
+  return (
+    <main className="min-h-screen">
+      <iframe
+        title="Booking Engine"
+        src="/hotelrunner/bv3/index.html"
+        style={{ width: "100%", height: "100vh", border: "0" }}
+        allow="clipboard-write *"
+      />
+    </main>
+  );
 }
