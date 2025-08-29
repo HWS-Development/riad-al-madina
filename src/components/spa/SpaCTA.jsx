@@ -12,7 +12,7 @@ export default function SpaCTA() {
       </div>
       <div className="flex gap-3">
         <a
-          href={BOOK_URL}
+          href='/contact'
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center rounded-xl px-5 py-2 bg-[#14110f] text-white hover:opacity-90"

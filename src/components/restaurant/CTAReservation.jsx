@@ -13,8 +13,8 @@ export default function CTAReservation() {
           <h2 className="font-medium">{t("restaurant.cta.bigTitle")}</h2>
           <p className="opacity-75">{t("restaurant.cta.bigText")}</p>
         </div>
-        <a
-          href={BOOK_URL}
+        <a          
+          href='/contact'
           target="_blank"
           rel="noreferrer"
           className="rounded-xl px-5 py-2 bg-ink text-white hover:opacity-90"
